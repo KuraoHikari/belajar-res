@@ -293,6 +293,6 @@ function startServer() {
  console.log("Server is running on port " + port);
 }
 
-// server.listen(port, startServer);
+server.listen(port, startServer);
 
 export default server;
